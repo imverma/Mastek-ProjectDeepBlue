@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h1 class="m-3 text-center">Data Augmentation</h1>
+<br>
+<meta http-equiv="refresh" content="3">
+<div class="text-center">
+{% for image in images %}
+    <img class="img-thumbnail m-2" src="{{image}}" alt="" width="220px">
+{% endfor %}
+</div>
+
+{% endblock %}

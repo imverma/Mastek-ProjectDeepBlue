@@ -1,0 +1,8 @@
+.eycdata/
+.vscode/
+.ipynb_checkpoints/
+main/models
+eycdata/
+__pycache__/
+225-images/
+generated/

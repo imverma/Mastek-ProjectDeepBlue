@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h1 class="m-3 text-center">Preprocessing</h1>
+<br>
+<meta http-equiv="refresh" content="3">
+<div class="row p-0 text-center">
+{% for image_set in images %}'
+    <div class="col-sm">
+        <img class="img-thumbnail" src="{{image_set[1]}}" alt="">
+        <img class="img-thumbnail" src="{{image_set[0]}}" alt="">
+    </div>
+{% endfor %}
+</div>
+
+{% endblock %}
